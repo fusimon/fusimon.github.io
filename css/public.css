@@ -76,7 +76,7 @@ a:link,a:visited{text-decoration:none;}
 	left: 32px;
 	border: 5px solid crimson;
 	border-radius: 50%;
-	animation:mymove 0.5s infinite;
+	animation:mymove 0.2s infinite;
 	-webkit-animation:mymove 4s infinite;
 	
 }
@@ -356,4 +356,12 @@ a:link,a:visited{text-decoration:none;}
 
 .swiper-container2 .swiper-container-horizontal>.swiper-pagination-progressbar, .swiper-container-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite{
 	bottom: 0;
+}
+
+.row{
+	margin-right: -5px;
+    margin-left: -5px;
+}
+.hiddens{
+	overflow: hidden;
 }
